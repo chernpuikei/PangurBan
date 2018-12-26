@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyInput">
+
+  <LinearLayout android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:id="@+id/editText_daily_input"
+              android:layout_weight="10"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                  android:layout_height="0dp">
+      <ImageView android:layout_width="wrap_content"
+                 android:id="@+id/insert_image"
+                 android:layout_height="wrap_content"/>
+      <ImageView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+      <ImageView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+      <ImageView android:layout_width="wrap_content"
+                 android:id="@+id/submit_record"
+                 android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
